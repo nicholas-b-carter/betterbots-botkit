@@ -1,11 +1,13 @@
 {
   "author": "betterbots@utu.ai",
   "name": "uTu-Botkit-Demo",
-  "version": "0.0.1",
+  "private": true,
+  "version": "0.1.0",
   "dependencies": {
     "alexa-botkit": "^0.0.3",
     "alexa-req": "^1.0.0",
     "alexa-response": "^4.0.3",
+    "alexa-verifier": "^0.2.0",
     "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-0": "^6.16.0",
@@ -36,7 +38,7 @@
   },
   "scripts": {
     "build": "babel -w --presets es2015 src -d dist",
-    "start": "cross-env $(cat .env) nodemon lesson-7-uTu/src/index.js --watch src --exec babel-node"
+    "start": "cross-env nodemon lesson-5-AI/src/index.js --watch src --exec babel-node"
   },
   "license": "MIT"
 }
