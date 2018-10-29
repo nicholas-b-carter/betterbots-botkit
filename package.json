@@ -12,7 +12,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-0": "^6.16.0",
     "babel-runtime": "^6.18.0",
-    "botkit": "^0.4.2",
+    "botkit": "^0.6.11",
     "cross-env": "^3.1.3",
     "dotenv": "^2.0.0",
     "localtunnel": "^1.8.0",
